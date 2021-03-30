@@ -6,7 +6,7 @@ useradd -m ioi
 # Setup desktop background
 sudo -Hu ioi xvfb-run gsettings set org.gnome.desktop.background picture-options 'wallpaper'
 sudo -Hu ioi xvfb-run gsettings set org.gnome.desktop.background picture-uri \
-	'file:///opt/ioi/misc/ioi2021-wallpaper.jpg'
+	'file:///opt/ioi/misc/ioi2021-wallpaper.png'
 sudo -Hu ioi xvfb-run gsettings set org.gnome.shell enabled-extensions "['add-username-ioi2020']"
 sudo -Hu ioi xvfb-run gsettings set org.gnome.shell disable-user-extensions false
 sudo -Hu ioi xvfb-run gsettings set org.gnome.desktop.session idle-delay 900
